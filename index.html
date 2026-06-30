@@ -8,5 +8,29 @@
 
 <h1>Welcome To Maxnetwork</h1>
 
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD6mwKQjab6ZEXEACXbKB5CQ0JX-5_o2po",
+    authDomain: "maxnetwork-e40d9.firebaseapp.com",
+    projectId: "maxnetwork-e40d9",
+    storageBucket: "maxnetwork-e40d9.firebasestorage.app",
+    messagingSenderId: "707996387498",
+    appId: "1:707996387498:web:06928ecda1a7001ef5a8d3",
+    measurementId: "G-MTFQ1KDYXY"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 </body>
 </html>
